@@ -4,53 +4,47 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Webstudio</title>
+    <title>hm2 main page</title>
+    <link rel="stylesheet" href="Css/index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
   </head>
   <body>
     <!---top line bg-->
     <header>
-      <a href="#" style="text-decoration: none"
-        ><p>
-          <b
-            ><span style="font-size: xx-large; color: rgb(0, 183, 255)">
-              Web</span
-            ><span style="font-size: xx-large; color: black">Studio</span></b
-          >
-        </p></a
-      >
+      <a class="nav-Webstudio" href="index.html" style="text-decoration: none">WebStudio</a>
       <nav>
-        <ul>
-          <li><a href="Agencja" style="text-decoration: none">Agencja</a></li>
+        <ul>  
           <li>
-            <a href="Portfolio" style="text-decoration: none">Portfolio</a>
+            <a class="nav-agencja" href="Agencja" style="text-decoration: none">Agencja</a>
           </li>
-          <li><a href="Kontakt" style="text-decoration: none">Kontakt</a></li>
+          <li>
+            <a class="nav-portfolio" href="portfolio.html" style="text-decoration: none">Portfolio</a>
+          </li>
+          <li><a class="nav-kontakt" href="Kontakt" style="text-decoration: none">Kontakt</a></li>
         </ul>
       </nav>
       <ul>
         <li>
-          <a href="mailto:info@devstudio.com" style="text-decoration: none"
-            >info@devstudio.com</a
-          >
+          <a class="mailto-main" href="mailto:info@devstudio.com" style="text-decoration: none">info@devstudio.com</a>
         </li>
         <li>
-          <a href="tel:+48111111111" style="text-decoration: none"
-            >+48 111 111 111</a
-          >
+          <a class="tel-main" href="tel:+48111111111" style="text-decoration: none">+48 111 111 111</a>
         </li>
       </ul>
     </header>
     <main>
-      <section>
-        <h1>EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
-        <button type="button">Zamów usługe</button>
+      <section class="efect">
+        <h1 class="h1">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
+        <button type="button" class="service">Zamów usługe</button>
       </section>
       <!---Opis usług-->
       <section>
         <ul>
           <li>
             <h3>Lorem ipsum</h3>
-            <p>
+            <p class="post">
               Lorem ipsum, dolor sit amet consectetur adipisicing elit.
               Provident distinctio doloribus cum iste debitis fugiat corrupti!
               Nostrum sequi culpa ratione rerum enim placeat accusamus vero
@@ -59,7 +53,7 @@
           </li>
           <li>
             <h3>Lorem ipsum</h3>
-            <p>
+            <p class="post">
               Lorem ipsum, dolor sit amet consectetur adipisicing elit.
               Provident distinctio doloribus cum iste debitis fugiat corrupti!
               Nostrum sequi culpa ratione rerum enim placeat accusamus vero
@@ -68,7 +62,7 @@
           </li>
           <li>
             <h3>Lorem ipsum</h3>
-            <p>
+            <p class="post">
               Lorem ipsum, dolor sit amet consectetur adipisicing elit.
               Provident distinctio doloribus cum iste debitis fugiat corrupti!
               Nostrum sequi culpa ratione rerum enim placeat accusamus vero
@@ -79,7 +73,7 @@
             <div>
               <h3>Lorem ipsum</h3>
             </div>
-            <p>
+            <p class="post">
               Lorem ipsum, dolor sit amet consectetur adipisicing elit.
               Provident distinctio doloribus cum iste debitis fugiat corrupti!
               Nostrum sequi culpa ratione rerum enim placeat accusamus vero
@@ -97,29 +91,26 @@
               src="Images/Czym-sie-zajmujemy/Programowanie.jpg"
               alt="Programowanie"
               width="370"
-              height="294"
-            />
+              height="294">
           </li>
           <li>
             <img
               src="Images/Czym-sie-zajmujemy/Komunikacja.jpg"
               alt="Komunikacja"
               width="370"
-              height="294"
-            />
+              height="294">
           </li>
           <li>
             <img
               src="Images/Czym-sie-zajmujemy/Kolor.jpg"
               alt="Kolor"
               width="370"
-              height="294"
-            />
+              height="294">
           </li>
         </ul>
       </section>
       <!---Nasz Zespół-->
-      <section>
+      <section class="background">
         <h2>Nasz zespół</h2>
         <ul>
           <li>
@@ -127,8 +118,7 @@
               src="Images/Nasz-zespol/JohnDoe.jpg"
               alt="JohnDoe"
               width="270"
-              height="260"
-            />
+              height="260">
             <p><b>John Doe</b></p>
             <p>Product Designer</p>
           </li>
@@ -137,8 +127,7 @@
               src="Images/Nasz-zespol/JohnDoe2.jpg"
               alt="JohnDoe2"
               width="270"
-              height="260"
-            />
+              height="260">
             <p><b>John Doe</b></p>
             <p>Frontend Developer</p>
           </li>
@@ -147,8 +136,7 @@
               src="Images/Nasz-zespol/JohnDoe3.jpg"
               alt="JohnDoe3"
               width="270"
-              height="260"
-            />
+              height="260">
             <p><b>John Doe</b></p>
             <p>Marketing</p>
           </li>
@@ -157,8 +145,7 @@
               src="Images/Nasz-zespol/JohnDoe4.jpg"
               alt="JohnDoe4"
               width="270"
-              height="260"
-            />
+              height="260">
             <p><b>John Doe</b></p>
             <p>UI Designer</p>
           </li>
@@ -167,25 +154,11 @@
     </main>
     <!---Kontakt -->
     <footer>
-      <a href="#" style="text-decoration: none"
-        ><p>
-          <b
-            ><span style="font-size: xx-large; color: rgb(0, 183, 255)">
-              Web</span
-            ><span style="font-size: xx-large; color: whitesmoke"
-              >Studio</span
-            ></b
-          >
-        </p></a
-      >
+      <a class="nav-Webstudio" href="index.html" style="text-decoration: none">WebStudio</a>
       <address>
         m. Warszawa, Aleje Jerozolimskie 21
-        <a href="mailto:info@example.com" style="text-decoration: none"
-          >info@example.com</a
-        >
-        <a href="tel:+48111111111" style="text-decoration: none"
-          >+48 111 111 111</a
-        >
+        <a href="mailto:info@example.com" style="text-decoration: none">info@example.com</a>
+        <a href="tel:+48111111111" style="text-decoration: none">+48 111 111 111</a>
       </address>
     </footer>
   </body>
