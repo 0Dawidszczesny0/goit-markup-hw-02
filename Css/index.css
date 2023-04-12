@@ -8,14 +8,15 @@ body {
 font-family: "Roboto" , sans-serif;
 
 }
+ul {
+
+    list-style-type: none;
+    
+    }
 header {border: 1px solid #ECECEC;}
 .nav-Webstudio{
     /* WebStudio */
 
-
-    position: absolute;
-    width: 145px;
-    height: 31px;
     left: 215px;
     top: 24px;
     
@@ -32,10 +33,6 @@ header {border: 1px solid #ECECEC;}
 .mailto-main{
     /* info@devstudio.com */
 
-
-    position: absolute;
-    width: 135px;
-    height: 16px;
     left: 1078px;
     top: 32px;
     
@@ -50,10 +47,6 @@ header {border: 1px solid #ECECEC;}
 .tel-main{
     /* +48 111 111 111 */
 
-
-    position: absolute;
-    width: 110px;
-    height: 16px;
     left: 1263px;
     top: 32px;
     
@@ -69,10 +62,6 @@ header {border: 1px solid #ECECEC;}
 .efect{
     /* Bg */
 
-
-    position: absolute;
-    width: 1600px;
-    height: 600px;
     left: 0px;
     top: 80px;
     
@@ -80,10 +69,6 @@ header {border: 1px solid #ECECEC;}
 .h1 {
     /* EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU */
 
-
-    position: absolute;
-    width: 696px;
-    height: 120px;
     left: 452px;
     top: 280px;
     
@@ -101,9 +86,7 @@ header {border: 1px solid #ECECEC;}
     color: #FFFFFF;}
  
 .nav-agencja{
-    position: absolute;
-width: 53px;
-height: 16px;
+
 left: 453px;
 top: 32px;
 
@@ -117,11 +100,6 @@ letter-spacing: 0.02em;
 color: #212121;}
 .nav-kontakt{   
     /* Kontakt */
-
-
-position: absolute;
-width: 51px;
-height: 16px;
 left: 656px;
 top: 32px;
 
@@ -136,10 +114,6 @@ color: #212121;}
 .nav-portfolio{
 /* Portfolio */
 
-
-position: absolute;
-width: 58px;
-height: 16px;
 left: 552px;
 top: 32px;
 
@@ -155,18 +129,12 @@ color: #212121;
 }
 
 .service{
-    position: absolute;
-    width: 200px;
-    height: 50px;
     left: 700px;
     top: 430px;
     
     background: #2196F3;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
-position: absolute;
-max-width: 117px;
-max-height: 30px;
 left: 742px;
 top: 440px;
 
@@ -185,10 +153,6 @@ letter-spacing: 0.06em;
 color: #FFFFFF;
     /* Zamów usługe */
 
-
-position: absolute;
-width: 117px;
-height: 30px;
 left: 742px;
 top: 440px;
 
@@ -206,10 +170,6 @@ letter-spacing: 0.06em;}
 .background-team{
     /* Section bg */
 
- 
-position: absolute;
-width: 1600px;
-height: 648px;
 left: 0px;
 top: 1449px;
 
@@ -218,10 +178,6 @@ background: #F5F4FA;
 .post-first-main{
     /* LOREM IPSUM */
 
-
-    position: absolute;
-    width: 270px;
-    height: 16px;
     left: 215px;
     top: 774px;
     
@@ -238,9 +194,6 @@ background: #F5F4FA;
     }
 .post-first{
      /* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui. Interdum et malesuada */
-    position: absolute;
-    width: 270px;
-    height: 75px;
     left: 215px;
     top: 800px;
     
@@ -257,10 +210,6 @@ background: #F5F4FA;
 .post-two-main{
     /* LOREM IPSUM */
 
-
-    position: absolute;
-    width: 270px;
-    height: 16px;
     left: 515px;
     top: 774px;
     
@@ -276,10 +225,6 @@ background: #F5F4FA;
 .post-two{
     /* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui. Interdum et malesuada */
 
-
-    position: absolute;
-    width: 270px;
-    height: 75px;
     left: 515px;
     top: 800px;
 
@@ -296,10 +241,6 @@ background: #F5F4FA;
 .post-three-main{
     /* LOREM IPSUM */
 
-
-    position: absolute;
-    width: 270px;
-    height: 16px;
     left: 815px;
     top: 774px;
     
@@ -316,10 +257,6 @@ background: #F5F4FA;
 .post-three{
     /* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui. Interdum et malesuada */
 
-
-    position: absolute;
-    width: 270px;
-    height: 75px;
     left: 815px;
     top: 800px;
     
@@ -336,10 +273,6 @@ background: #F5F4FA;
 .post-for-main{
     /* LOREM IPSUM */
 
-
-    position: absolute;
-    width: 270px;
-    height: 16px;
     left: 1115px;
     top: 774px;
     
@@ -356,10 +289,6 @@ background: #F5F4FA;
 .post-for{
     /* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui. Interdum et malesuada */
 
-
-    position: absolute;
-    width: 270px;
-    height: 75px;
     left: 1115px;
     top: 800px;
     
@@ -376,10 +305,6 @@ background: #F5F4FA;
 .what-we-do{
     /* Czym się zajmujemy */
 
-
-position: absolute;
-width: 352px;
-height: 42px;
 left: 624px;
 top: 969px;
 
@@ -397,38 +322,22 @@ color: #212121;
 .programming-img{
     /* img */
 
-
-    position: absolute;
-    width: 370px;
-    height: 294px;
     left: 215px;
     top: 1061px;}
 .comunity-img{
     /* img */
 
-
-    position: absolute;
-    width: 370px;
-    height: 294px;
     left: 615px;
     top: 1061px;}
 .color-img{
     /* img */
 
-
-    position: absolute;
-    width: 370px;
-    height: 294px;
     left: 1015px;
     top: 1061px;
     }
 .team{
     /* Nasz zespół */
 
-
-     position: absolute;
-     width: 210px;
-     height: 42px;
      left: 695px;
      top: 1543px;
 
@@ -444,10 +353,6 @@ color: #212121;
 .JohnDoe-first{
     /* img */
 
-
-    position: absolute;
-    width: 270px;
-    height: 260px;
     left: 215px;
     top: 1635px;
     
@@ -455,10 +360,6 @@ color: #212121;
 .JohnDoe-first-main{
     /* John Doe */
 
-
-    position: absolute;
-    width: 72px;
-    height: 19px;
     left: 314px;
     top: 1925px;
     
@@ -477,10 +378,6 @@ color: #212121;
 .Product-Designer{
     /* Product Designer */
 
-
-position: absolute;
-width: 130px;
-height: 19px;
 left: 285px;
 top: 1954px;
 
@@ -499,20 +396,12 @@ color: #757575;
 .JohnDoe-two{
     /* img */
 
-
-    position: absolute;
-    width: 270px;
-    height: 260px;
     left: 515px;
     top: 1635px;
     
     border-radius: 0px;}
 .JohnDoe-two-main{/* John Doe */
 
-
-    position: absolute;
-    width: 72px;
-    height: 19px;
     left: 614px;
     top: 1925px;
     
@@ -531,10 +420,6 @@ color: #757575;
 .Frontend-Developer{
     /* Frontend Developer */
 
-
-    position: absolute;
-    width: 147px;
-    height: 19px;
     left: 577px;
     top: 1954px;
     
@@ -553,20 +438,12 @@ color: #757575;
 .JohnDoe-three{
     /* img */
 
-
-    position: absolute;
-    width: 270px;
-    height: 260px;
     left: 815px;
     top: 1635px;
     
     border-radius: 0px;}
 .JohnDoe-three-main{/* John Doe */
 
-
-    position: absolute;
-    width: 72px;
-    height: 19px;
     left: 914px;
     top: 1925px;
     
@@ -585,10 +462,6 @@ color: #757575;
 .Marketing{
     /* Marketing */
 
-
-    position: absolute;
-    width: 76px;
-    height: 19px;
     left: 912px;
     top: 1954px;
     
@@ -606,10 +479,6 @@ color: #757575;
 .JohnDoe-for{
     /* img */
 
-
-    position: absolute;
-    width: 270px;
-    height: 260px;
     left: 1115px;
     top: 1635px;
     
@@ -617,10 +486,6 @@ color: #757575;
 .JohnDoe-for-main{
     /* John Doe */
 
-
-position: absolute;
-width: 72px;
-height: 19px;
 left: 1214px;
 top: 1925px;
 
@@ -639,10 +504,6 @@ color: #212121;
 .UI-Designer{
     /* UI Designer */
 
-
-    position: absolute;
-    width: 87px;
-    height: 19px;
     left: 1207px;
     top: 1954px;
     
@@ -657,63 +518,13 @@ color: #212121;
     letter-spacing: 0.03em;
     
     color: #757575;}
-address {
-    /* top line bg */
-    
-    
-    position: absolute;
-    width: 1600px;
-    height: 80px;
-    left: 0px;
-    top: 0px;
-    
-    background: #FFFFFF;
-    
-    /* +48 111 111 111 */
-    
-    
-    position: absolute;
-    width: 110px;
-    height: 16px;
-    left: 1263px;
-    top: 32px;
-    
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.02em;
-    color: #757575; font-family: "Roboto" , sans-serif;
-     
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-    
-    /* or 171% */
-    
-    letter-spacing: 0.03em;
-    color: #FFFFFF;
-     }
 
 footer{
-        position: absolute;
-        width: 1600px;
-        height: 252px;
         left: 0px;
         top: 2097px;
         
         background: #2F303A;}
 .address-footer{/* m. Warszawa, Aleje Jerozolimskie 21 */
-
-
-    position: absolute;
-    width: 246px;
-    height: 21px;
-    left: 215px;
-    top: 2208px;
     
     font-family: 'Roboto';
     font-style: normal;
@@ -727,13 +538,6 @@ footer{
     color: #FFFFFF;
     }
 .mailto-footer{/* info@example.com */
-
-
-    position: absolute;
-    width: 231px;
-    height: 21px;
-    left: 215px;
-    top: 2238px;
     
     font-family: 'Roboto';
     font-style: normal;
@@ -748,10 +552,6 @@ footer{
     }
 .tel-footer{/* +48 111 111 111 */
 
-
-    position: absolute;
-    width: 231px;
-    height: 21px;
     left: 215px;
     top: 2268px;
     
@@ -768,9 +568,6 @@ footer{
 .btn-all {
     /* Rectangle 10 */
 
-    position: absolute;
-    width: 121px;
-    height: 38px;
     left: 510px;
     top: 174px;
    
@@ -786,10 +583,6 @@ footer{
 .btn-strony{
     /* Rectangle 10 */
 
-
-    position: absolute;
-    width: 93px;
-    height: 38px;
     left: 639px;
     top: 174px;
     
@@ -804,11 +597,7 @@ footer{
     }
 .btn-aplikacje{
         /* Rectangle 10 */
-    
-    
-    position: absolute;
-    width: 114px;
-    height: 38px;
+
     left: 740px;
     top: 174px;
     
@@ -825,10 +614,6 @@ footer{
 .btn-dizajn {
     /* Rectangle 10 */
 
-
-    position: absolute;
-    width: 91px;
-    height: 38px;
     left: 862px;
     top: 174px;
     
@@ -845,10 +630,6 @@ footer{
 .btn-marketing {
     /* Rectangle 10 */
 
-
-position: absolute;
-width: 121px;
-height: 38px;
 left: 961px;
 top: 174px;
 
@@ -865,20 +646,12 @@ border-radius: 4px;
 .Technocrack-img {
     /* img */
 
-
-    position: absolute;
-    width: 370px;
-    height: 294px;
     left: 215px;
     top: 262px;
     }
 .Technocrack-main {
     /* Technocrack */
 
-
-position: absolute;
-width: 322px;
-height: 36px;
 left: 239px;
 top: 576px;
 
@@ -897,10 +670,6 @@ color: #212121;
 .Technocrack-tekst {
     /* Strona internetowa */
 
-
-position: absolute;
-width: 322px;
-height: 30px;
 left: 239px;
 top: 616px;
 
@@ -919,20 +688,12 @@ color: #757575;
 .Grafika-New-Orlean-vs-Golden-Star-img {
     /* img */
 
-
-position: absolute;
-width: 370px;
-height: 294px;
 left: 615px;
 top: 262px;
 }
 .Grafika-New-Orlean-vs-Golden-Star-main {
     /* Grafika New Orlean vs Golden Star */
 
-
-position: absolute;
-width: 322px;
-height: 36px;
 left: 639px;
 top: 576px;
 
@@ -951,10 +712,6 @@ color: #212121;
 .Grafika-New-Orlean-vs-Golden-Star-tekst{
     /* Dizajn */
 
-
-position: absolute;
-width: 322px;
-height: 30px;
 left: 639px;
 top: 616px;
 
@@ -973,20 +730,12 @@ color: #757575;
 .Restauracja-Seafood-img {
     /* img */
 
-
-position: absolute;
-width: 370px;
-height: 294px;
 left: 1015px;
 top: 262px;
 }
 .Restauracja-Seafood-main {
     /* Restauracja Seafood */
 
-
-position: absolute;
-width: 322px;
-height: 36px;
 left: 1039px;
 top: 576px;
 
@@ -1005,10 +754,6 @@ color: #212121;
 .Restauracja-Seafood-tekst{
     /* Aplikacja */
 
-
-position: absolute;
-width: 322px;
-height: 30px;
 left: 1039px;
 top: 616px;
 
@@ -1027,20 +772,12 @@ color: #757575;
 .Projekt-Prime-img {
     /* img */
 
-
-    position: absolute;
-    width: 370px;
-    height: 294px;
     left: 215px;
     top: 696px;
     }
 .Projekt-Prime-main{
     /* Projekt Prime */
 
-
-position: absolute;
-width: 322px;
-height: 36px;
 left: 239px;
 top: 1010px;
 
@@ -1059,10 +796,6 @@ color: #212121;
 .Projekt-Prime-tekst{
     /* Marketing */
 
-
-position: absolute;
-width: 322px;
-height: 30px;
 left: 239px;
 top: 1050px;
 
@@ -1080,20 +813,12 @@ color: #757575;
 .Projekt-Boxes-img{
     /* img */
 
-
-    position: absolute;
-    width: 370px;
-    height: 294px;
     left: 615px;
     top: 696px;
     }
 .Projekt-Boxes-main {
     /* Projekt Boxes */
 
-
-position: absolute;
-width: 322px;
-height: 36px;
 left: 639px;
 top: 1010px;
 
@@ -1112,10 +837,6 @@ color: #212121;
 .Projekt-Boxes-tekst{
     /* Aplikacja */
 
-
-    position: absolute;
-    width: 322px;
-    height: 30px;
     left: 639px;
     top: 1050px;
     
@@ -1133,10 +854,6 @@ color: #212121;
 .Inspiration-has-no-Borders-img{
     /* img */
 
-
-position: absolute;
-width: 370px;
-height: 294px;
 left: 1015px;
 top: 696px;
 
@@ -1144,10 +861,6 @@ top: 696px;
 .Inspiration-has-no-Borders-main {
     /* Inspiration has no Borders */
 
-
-position: absolute;
-width: 322px;
-height: 36px;
 left: 1039px;
 top: 1010px;
 
@@ -1166,10 +879,6 @@ color: #212121;
 .Inspiration-has-no-Borders-tekst{
     /* Strona internetowa */
 
-
-position: absolute;
-width: 322px;
-height: 30px;
 left: 1039px;
 top: 1050px;
 
@@ -1188,10 +897,6 @@ color: #757575;
 .Magazyn-Limited-Edition-img{
     /* img */
 
-
-position: absolute;
-width: 370px;
-height: 294px;
 left: 215px;
 top: 1130px;
 
@@ -1199,10 +904,6 @@ top: 1130px;
 .Magazyn-Limited-Edition-main {
     /* Magazyn Limited Edition */
 
-
-position: absolute;
-width: 322px;
-height: 36px;
 left: 239px;
 top: 1444px;
 
@@ -1221,10 +922,6 @@ color: #212121;
 .Magazyn-Limited-Edition-tekst{
     /* Dizajn */
 
-
-position: absolute;
-width: 322px;
-height: 30px;
 left: 239px;
 top: 1484px;
 
@@ -1242,10 +939,6 @@ color: #757575;
 .Projekt-LAB-img{
     /* img */
 
-
-position: absolute;
-width: 370px;
-height: 294px;
 left: 615px;
 top: 1130px;
 
@@ -1253,10 +946,6 @@ top: 1130px;
 .Projekt-LAB-main {
     /* Projekt LAB */
 
-
-position: absolute;
-width: 322px;
-height: 36px;
 left: 639px;
 top: 1444px;
 
@@ -1274,10 +963,6 @@ color: #212121;
 .Projekt-LAB-tekst{
     /* Marketing */
 
-
-position: absolute;
-width: 322px;
-height: 30px;
 left: 639px;
 top: 1484px;
 
@@ -1296,9 +981,6 @@ color: #757575;
     /* img */
 
 
-position: absolute;
-width: 370px;
-height: 294px;
 left: 1015px;
 top: 1130px;
 
@@ -1306,10 +988,6 @@ top: 1130px;
 .Growing-Business-main {
     /* Growing Business */
 
-
-position: absolute;
-width: 322px;
-height: 36px;
 left: 1039px;
 top: 1444px;
 
@@ -1328,10 +1006,6 @@ color: #212121;
 .Growing-Business-tekst {
     /* Aplikacja */
 
-
-position: absolute;
-width: 322px;
-height: 30px;
 left: 1039px;
 top: 1484px;
 
